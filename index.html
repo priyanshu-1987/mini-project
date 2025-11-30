@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DesiRoutes | Incredible India Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="loginToggle" class="modal-toggle" hidden />
+    <header class="navbar">
+      <div class="logo">DesiRoutes</div>
+      <nav class="nav-links">
+        <a href="#destinations">Destinations</a>
+        <a href="#journeys">Journeys</a>
+        <a href="#experiences">Experiences</a>
+        <a href="#plan">Plan Trip</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <label for="loginToggle" class="btn btn-outline login-trigger" role="button">
+        Login
+      </label>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Namaste, India</p>
+          <h1>Craft soulful journeys across Incredible India</h1>
+          <p class="lead">
+            Chase the desert sunsets of Rajasthan, camp beneath the Ladakhi
+            galaxies, or sip filter coffee in Coorg's misty hills—our planners
+            stitch together culturally-rich holidays for every kind of Indian
+            traveler.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#plan">Plan a Weekend</a>
+            <a class="btn btn-outline" href="#journeys">Watch Gully Stories</a>
+          </div>
+          <div class="stats">
+            <div>
+              <h3>28</h3>
+              <p>States Curated</p>
+            </div>
+            <div>
+              <h3>500+</h3>
+              <p>Heritage Homestays</p>
+            </div>
+            <div>
+              <h3>4.9/5</h3>
+              <p>Traveller Reviews</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <p class="plan-title">Featured Escape</p>
+          <h2>Valley of Flowers, Uttarakhand</h2>
+          <ul>
+            <li>6 nights · Glamping & village stay</li>
+            <li>Guided trek + yoga by Pushpawati river</li>
+            <li>Starting at ₹48,500</li>
+          </ul>
+          <a class="btn btn-primary full-width" href="#plan">
+            Reserve Your Slot
+          </a>
+          <p class="mini-note">Limited seats · July to September bloom</p>
+        </div>
+      </section>
+
+      <section class="section" id="destinations">
+        <div class="section-header">
+          <p class="eyebrow">Handpicked desi escapes</p>
+          <h2>Top Indian Destinations</h2>
+          <p>
+            Crafted with local creators to bring you mindful stays, culinary
+            walks, and artisan encounters from Kutch to Kohima.
+          </p>
+        </div>
+        <div class="card-grid">
+          <a class="card card-link" href="#plan" aria-label="Plan Jaipur trip">
+            <div class="card-image jaipur"></div>
+            <div class="card-body">
+              <h3>Jaipur, Rajasthan</h3>
+              <p>Havelis, blue pottery workshops, and royal food trails.</p>
+              <span class="link">Plan Jaipur -></span>
+            </div>
+          </a>
+          <a class="card card-link" href="#plan" aria-label="Plan Spiti trip">
+            <div class="card-image himachal"></div>
+            <div class="card-body">
+              <h3>Spiti, Himachal</h3>
+              <p>Monastery sleepovers, star-gazing domes, and river hikes.</p>
+              <span class="link">Plan Spiti -></span>
+            </div>
+          </a>
+          <a class="card card-link" href="#plan" aria-label="Plan Wayanad trip">
+            <div class="card-image kerala"></div>
+            <div class="card-body">
+              <h3>Wayanad, Kerala</h3>
+              <p>Tree-house stays, spice gardens, and waterfall picnics.</p>
+              <span class="link">Plan Wayanad -></span>
+            </div>
+          </a>
+          <a class="card card-link" href="#plan" aria-label="Plan Goa trip">
+            <div class="card-image goa"></div>
+            <div class="card-body">
+              <h3>Goa, Konkan Coast</h3>
+              <p>Art cafés, mangrove kayaking, and Latin quarter walks.</p>
+              <span class="link">Plan Goa -></span>
+            </div>
+          </a>
+          <a class="card card-link" href="#plan" aria-label="Plan Ladakh trip">
+            <div class="card-image ladakh"></div>
+            <div class="card-body">
+              <h3>Ladakh, UT</h3>
+              <p>Stargazing camps, Buddhist festivals, and river rafting.</p>
+              <span class="link">Plan Ladakh -></span>
+            </div>
+          </a>
+          <a class="card card-link" href="#plan" aria-label="Plan Meghalaya trip">
+            <div class="card-image meghalaya"></div>
+            <div class="card-body">
+              <h3>Meghalaya, Northeast</h3>
+              <p>Living root bridges, synth-pop gigs, and waterfall swims.</p>
+              <span class="link">Plan Meghalaya -></span>
+            </div>
+          </a>
+          <a class="card card-link" href="#plan" aria-label="Plan Andaman trip">
+            <div class="card-image andaman"></div>
+            <div class="card-body">
+              <h3>Andaman Islands</h3>
+              <p>Bioluminescent bays, scuba adventures, and island hopping.</p>
+              <span class="link">Plan Andaman -></span>
+            </div>
+          </a>
+          <a class="card card-link" href="#plan" aria-label="Plan Sikkim trip">
+            <div class="card-image sikkim"></div>
+            <div class="card-body">
+              <h3>North Sikkim</h3>
+              <p>Frozen lakes, rhododendron valleys, and yak safaris.</p>
+              <span class="link">Plan Sikkim -></span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section vibe-lab" id="journeys">
+        <div class="section-header">
+          <p class="eyebrow">Interactive trip studio</p>
+          <h2>Choose your travel mood</h2>
+          <p>
+            Toggle between India’s seasons to preview curated experiences and
+            recommended regions—the perfect inspo board for your next break.
+          </p>
+        </div>
+        <div class="vibe-lab-inner">
+          <input type="radio" name="vibe" id="monsoon" checked />
+          <input type="radio" name="vibe" id="winter" />
+          <input type="radio" name="vibe" id="festival" />
+
+          <div class="vibe-tabs">
+            <label for="monsoon">Monsoon Magic</label>
+            <label for="winter">Winter Wanderlust</label>
+            <label for="festival">Festival Circuit</label>
+          </div>
+
+          <div class="vibe-panels">
+            <article class="vibe-panel monsoon">
+              <h3>Monsoon Magic · Western Ghats</h3>
+              <p>
+                Drive through emerald ghats, chase cloud waterfalls, and cosy up
+                in coffee estates with curated spice tastings.
+              </p>
+              <ul>
+                <li>Stay at an eco-retreat in Coorg</li>
+                <li>Private jeep safari in Munnar</li>
+                <li>Local host-led Kodava picnic</li>
+              </ul>
+            </article>
+            <article class="vibe-panel winter">
+              <h3>Winter Wanderlust · Himalayas</h3>
+              <p>
+                Warm bonfires, snow hikes, and hot butter tea in artisan-run
+                homestays across Kashmir and Himachal.
+              </p>
+              <ul>
+                <li>Gondola sunrise in Gulmarg</li>
+                <li>Frozen river walk in Tawang</li>
+                <li>Pahadi folk music circle</li>
+              </ul>
+            </article>
+            <article class="vibe-panel festival">
+              <h3>Festival Circuit · Heartland India</h3>
+              <p>
+                Immerse in the riot of colours, food, and folk performances from
+                Durga Puja pandals to Hornbill rhythms.
+              </p>
+              <ul>
+                <li>Craft crawl in Kolkata’s Kumortuli</li>
+                <li>Night bazaars during Diwali in Varanasi</li>
+                <li>Tribal rock with Naga storytellers</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experiences" id="experiences">
+        <div class="section-copy">
+          <p class="eyebrow">Why DesiRoutes?</p>
+          <h2>Experiences designed around you</h2>
+          <p>
+            We partner with local explorers, women-led homestays, and heritage
+            experts to ensure your rupee supports the communities you visit.
+          </p>
+        </div>
+        <ul class="experience-list">
+          <li>
+            <h3>Personal Travel Curator</h3>
+            <p>
+              WhatsApp your curator for real-time tweaks, be it adding a sunrise
+              trek or hunting for the best jalebi joint.
+            </p>
+          </li>
+          <li>
+            <h3>Immersive Local Guides</h3>
+            <p>
+              Skip tourist traps with storytellers who open doors to hidden
+              ateliers, farms, and indie gigs.
+            </p>
+          </li>
+          <li>
+            <h3>Flexible Protection</h3>
+            <p>
+              End-to-end assistance, travel insurance, and on-ground fixers in
+              every major Indian city.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section stories">
+        <div class="section-header">
+          <p class="eyebrow">Traveller stories</p>
+          <h2>See how our explorers roam</h2>
+          <p>Swipe through reels-inspired cards for itineraries you can steal.</p>
+        </div>
+        <div class="stories-grid">
+          <a class="story-card" href="#plan" aria-label="Open Goa workcation plan">
+            <p class="tag">48H Break</p>
+            <h3>Workcation from Goa</h3>
+            <p>
+              Café hopping in Panjim, paddle-boarding at Chorao, and sundowners
+              at a secret beach shack.
+            </p>
+            <span class="link">View Reel -></span>
+          </a>
+          <a class="story-card" href="#plan" aria-label="Open Kumaoni itinerary">
+            <p class="tag">Slow Travel</p>
+            <h3>Kumaoni Homestay Loop</h3>
+            <p>
+              Apple harvest, pottery with village artists, and rooftop stargazing
+              near Mukteshwar.
+            </p>
+            <span class="link">Save Itinerary -></span>
+          </a>
+          <a class="story-card" href="#plan" aria-label="Open Hyderabad food trail">
+            <p class="tag">Food Trail</p>
+            <h3>Hyderabad Biryani Crawl</h3>
+            <p>
+              Heritage walk through Charminar lanes, Irani cafés, and midnight
+              chai adda.
+            </p>
+            <span class="link">See Map -></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section plan" id="plan">
+        <div class="plan-card">
+          <p class="eyebrow">Plan your escape</p>
+          <h2>Ready to make it real?</h2>
+          <p>
+            Share your mood board and we'll stitch a bespoke itinerary with
+            trains, boutique stays, and verified local hosts within 48 hours.
+          </p>
+          <form class="plan-form">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Base City · e.g., Pune" />
+            <input type="text" placeholder="Dream destination · e.g., Meghalaya" />
+            <textarea placeholder="Tell us about your vibe, budget, crew size"></textarea>
+            <button type="submit" class="btn btn-primary">
+              Get Custom Plan
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div>
+        <h3>DesiRoutes</h3>
+        <p>Curated Indian escapes for travelers, dreamers, and storytellers.</p>
+      </div>
+      <div>
+        <p>Email</p>
+        <a href="mailto:hello@desiroutes.in">hello@desiroutes.in</a>
+      </div>
+      <div>
+        <p>Follow</p>
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">Spotify</a>
+        </div>
+        <p class="footer-note">HQ: Bengaluru · Mumbai · Ghaziabad</p>
+      </div>
+    </footer>
+
+    <div class="modal" id="loginModal">
+      <label class="modal-backdrop" for="loginToggle"></label>
+      <div class="modal-card" role="dialog" aria-labelledby="loginTitle">
+        <label
+          class="modal-close"
+          for="loginToggle"
+          aria-label="Close login modal"
+        >
+        </label>
+        <div class="modal-content">
+          <div class="modal-visual">
+            <p class="visual-pill">Weekend drop</p>
+            <h4>Konkan Monsoon Run</h4>
+            <p>
+              3N/4D slow trip with sunset ferry rides, estate meals, and folk
+              gigs curated by locals.
+            </p>
+            <ul class="visual-list">
+              <li> Coffee estate glamping</li>
+              <li> Filter coffee masterclass</li>
+              <li> Konkani folk jam</li>
+            </ul>
+            <div class="visual-tags">
+              <span>#RainReady</span>
+              <span>#SoulfulSaturdays</span>
+            </div>
+          </div>
+          <div class="modal-form-area">
+            <p class="eyebrow">Member login</p>
+            <h3 id="loginTitle">Welcome back to DesiRoutes</h3>
+            <form class="login-form">
+              <input type="email" placeholder="Email" required />
+              <input type="password" placeholder="Password" required />
+              <button type="submit" class="btn btn-primary">Sign In</button>
+            </form>
+            <div class="social-login">
+              <p>or continue with</p>
+              <div class="social-buttons">
+                <button type="button" class="chip social google">
+                  <span>Google</span>
+                </button>
+                <button type="button" class="chip social apple">
+                  <span>Apple</span>
+                </button>
+                <button type="button" class="chip social otp">
+                  <span>OTP</span>
+                </button>
+              </div>
+            </div>
+            <p class="modal-note">
+              New here? <a href="#plan">Plan your first escape</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
